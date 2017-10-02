@@ -4,23 +4,41 @@ body {
 }
 header {
   padding: 2rem;
-  background: #3c3c3c;
 }
+nav {
+  text-align: center;
+}
+
 .boton {
-  display: inline-block; 
-  float: right;
-  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
-.boton:first-child {
-  margin-right: 0;
+.profile {
+  display: block;
+  border-radius: 15%;
+  margin: 2rem auto 0;
+  width: 150px;
+  height: 150px;
+  transition: all .3s ease;
+}
+.profile:hover {
+  width: 256px;
+  height: 256px;
+
 }
 .lista {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  font-size: 1.75rem;
 }
 .blanco {
-  color: white;
+  color: #2A6E7C;
+  font-weight: bold;
+  transition: font-size .3s ease, color .3s ease;
+}
+.blanco:hover {
+  color: #3997AA;
+  font-size: 2.5rem;
 }
 .subrayado {
   text-decoration: none;
